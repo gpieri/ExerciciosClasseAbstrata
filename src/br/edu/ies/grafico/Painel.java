@@ -14,7 +14,7 @@ public class Painel extends JFrame {
 		super("Painel");
 		this.desenhaveis = d;
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setSize(400, 400);
+		setSize(1280, 720);
 		setVisible(true);
 	}
 

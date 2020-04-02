@@ -12,14 +12,7 @@ public class PlayList {
 	}
 
 	public void setModoDeReproducao(ModoDeReproducao modo) {
-		ordenador = null;
-		switch (modo) {
-		case porAutor:
-			ordenador = new OrdenadorPorAutor();
-			break;
-		default:
-			break;
-		}
+		ordenador = modo.getOrdenador();
 	}
 
 	public void adicionarMusica(String nome, String autor, String ano,
