@@ -3,7 +3,7 @@ package br.edu.ies.mp3;
 import java.util.ArrayList;
 
 public abstract class OrdenadorTemplate {
-	public abstract boolean isPrimeiro(MusicaMP3 musica1, MusicaMP3 musica2);
+	public abstract boolean isPrimeiro(MusicaMP3 musica1, MusicaMP3 musica2); //metodo que retorna bool
 
 	protected ArrayList<MusicaMP3> ordenarMusica(ArrayList<MusicaMP3> lista) {
 		ArrayList<MusicaMP3> novaLista = new ArrayList<MusicaMP3>();

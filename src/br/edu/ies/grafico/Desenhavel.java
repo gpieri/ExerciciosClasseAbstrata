@@ -2,8 +2,8 @@ package br.edu.ies.grafico;
 
 import java.awt.Graphics;
 
-public interface Desenhavel {
+public abstract class Desenhavel {
 
-	void desenhar(Graphics g);
+	public abstract void desenhar(Graphics g);
 
 }
